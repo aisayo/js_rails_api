@@ -1,4 +1,4 @@
-# Rails API Setup
+# Rails API Setup [Rails Guides Layouts and Rendering](https://guides.rubyonrails.org/v5.2/layouts_and_rendering.html)
 
 #### Proceed only if you have completed the steps listed in `initial_setup.md`
 
@@ -7,7 +7,9 @@
 - If you decide to use an existing Rails app, would need to render JSON instead of HTML, however could render both JSON and HTML if prefferred 
 - Once Rails API is setup, we can make fetch requests to `GET`, `POST`, `PATCH`, and `DELETE` data from our backend
 
+#### Render
 
+- 
 
 
 
