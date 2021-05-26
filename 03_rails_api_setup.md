@@ -1,7 +1,7 @@
 # Rails API Setup 
 - [Rails Guides Layouts and Rendering Resource](https://guides.rubyonrails.org/v5.2/layouts_and_rendering.html)
 
-#### Proceed only if you have completed the steps listed in `initial_setup.md`
+#### Proceed only if you have completed the steps listed in `01_initial_setup.md` and `02_cors_config.md`
 
 - We setup a Rails API when we want to pursue an application with maybe our own model/date or if we can not find a 3rd party API that encapsulates data we'd like to use in our app.
 - Originally, Rails applications are setup to render HTML
