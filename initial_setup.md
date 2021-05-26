@@ -13,3 +13,6 @@
 - `cd` into the new rails directory and run `rm -rf .git`
 - `cd` back to main directory and commit changes
 - WARNING! Moving forward with this model, you have to make sure to be cd'd into the main directory when creating commits. 
+
+### Creating two separate folders and repositories for the client-side and server-side applications
+#### This is a better way of handling a full stack application as it provides more flexibility with application. Hosting is simpler and if an application is to be used for another project, configuration would be simple as well
