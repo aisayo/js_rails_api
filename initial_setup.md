@@ -22,6 +22,10 @@
 - Initialize a repository on Github 
 - Commit 'client-side' application 
 - Repeat the above steps for 'server-side' application
-- Remember to run the following command to create Rails director:
+- Remember to run the following command to create Rails directory:
     - `rails new project-name-here --api` if you are anticipating hosting your app to Heroku/Netlify etc, run this command instead `rails new project-name-here --api --database=postgresql`
 - The result will be 2 SEPARATE folders and 2 separate repositories
+
+
+
+Next: Once this has been completed, move on to setting up the Rails API
