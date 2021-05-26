@@ -17,8 +17,9 @@
 - Previously we have used `render` to either implicity or explicity render views in our actions
 - However, we can use `render` to also produce different formats of our data
 - For a Rails backend/JavaScript frontend, we will use `render json:` 
-- Example:
-    render json: @product
+- Example:`render json: @product`
+- This will format the data in a way that is easily consumed by our application upon requests
+- 
 
 
 
