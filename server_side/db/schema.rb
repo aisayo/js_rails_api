@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2021_05_26_205312) do
   create_table "books", force: :cascade do |t|
     t.string "title"
     t.string "publisher"
-    t.datetime "publish_date"
+    t.string "publish_date"
     t.integer "page_count"
     t.integer "author_id", null: false
     t.datetime "created_at", precision: 6, null: false

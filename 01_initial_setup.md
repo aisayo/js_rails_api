@@ -28,4 +28,4 @@
 
 
 
-Next: Once this has been completed, move on to setting up the Rails API
+Next: Once this has been completed, move on to configuring CORS
