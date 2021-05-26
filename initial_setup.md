@@ -4,7 +4,7 @@
 - We can handle these separate directories in two ways:
 
 ### Creating a mono repo
-1. We can create 1 folder that houses both the JS and Rails folders. To do this follow these steps:
+#### We can create 1 folder that houses both the JS and Rails folders. To do this follow these steps:
 - Create a parent directory meant to house both JS and Rails folders: i.e. `mkdir gaming_app`
 - `cd` into this new directory and create a 'client-side' folder (this is where your JS code will be written, you can call the folder anything you'd like but client-side is common)
 - Create `index.html` and populate the document 
