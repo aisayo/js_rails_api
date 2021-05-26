@@ -8,16 +8,18 @@
 - Once Rails API is setup, we can make fetch requests to `GET`, `POST`, `PATCH`, and `DELETE` data from our backend
 
 
-### Using an existing Rails App
 
-- In controllers, will utilize the method `respond_to` to determine whether HTML or JSON is going to be rendered:
+
+
+
+#### This is an example of rendering both HTML and JSON in the controller:
 ```
     def index 
         @objects = Object.all
 
         respond_to do |format|
-        format.html {render :index}
-        format.json {render json: @object(s)}
+            format.html {render :index}
+            format.json {render json: @object(s)}
         end
     end 
 ```
