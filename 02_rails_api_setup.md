@@ -1,4 +1,5 @@
-# Rails API Setup [Rails Guides Layouts and Rendering](https://guides.rubyonrails.org/v5.2/layouts_and_rendering.html)
+# Rails API Setup 
+[Rails Guides Layouts and Rendering](https://guides.rubyonrails.org/v5.2/layouts_and_rendering.html)
 
 #### Proceed only if you have completed the steps listed in `initial_setup.md`
 
