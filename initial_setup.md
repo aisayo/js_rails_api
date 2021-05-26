@@ -16,3 +16,10 @@
 
 ### Creating two separate folders and repositories for the client-side and server-side applications
 #### This is a better way of handling a full stack application as it provides more flexibility with application. Hosting is simpler and if an application is to be used for another project, configuration would be simple as well
+- Create a directory for 'client-side' application `mkdir project-name`
+- `cd` into new project
+- add `index.html` file and create document
+- Initialize a repository on Github 
+- Commit 'client-side' application 
+- Repeat the above steps for 'server-side' application
+- The result will be 2 SEPARATE folders and 2 separate repositories
