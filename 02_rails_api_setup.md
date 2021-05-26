@@ -10,11 +10,12 @@
 
 ### Using an existing Rails App
 
-- In controllers, will utilize the method `respond_to` to determine whether HTML or JSON is going to be rendered
-                respond_to do |format|
-                    format.html {render :index}
-                    format.json {render json: @object(s)}
-                end 
+- In controllers, will utilize the method `respond_to` to determine whether HTML or JSON is going to be rendered:
+
+    respond_to do |format|
+      format.html {render :index}
+      format.json {render json: @object(s)}
+    end
 
 
 
