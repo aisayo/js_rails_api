@@ -10,4 +10,4 @@
         - Create a new Rails folder by running `rails new project-name-here --api` if you are anticipating hosting your app to Heroku/Netlify etc, run this command instead `rails new project-name-here --api --database=postgresql`
         - `cd` into the new rails directory and run `rm -rf .git`
         - `cd` back to main directory and commit changes
-        - WARNING! Moving forward with this model, you have to make sure to be cd'd into the main directory when creating commits. 
+        - [#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) WARNING! Moving forward with this model, you have to make sure to be cd'd into the main directory when creating commits. 
