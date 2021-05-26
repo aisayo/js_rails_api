@@ -8,10 +8,17 @@
 - If you decide to use an existing Rails app, would need to render JSON instead of HTML, however could render both JSON and HTML if prefferred 
 - Once Rails API is setup, we can make fetch requests to `GET`, `POST`, `PATCH`, and `DELETE` data from our backend
 
+### Getting Started
+- Once you have completed the initial setup, create models and tables. Can use the resource generator to do so: `rails g resource Model attributes`
+- A lot of the setup will happen in the controller(s)
+
 #### Render
 
-- 
-
+- Previously we have used `render` to either implicity or explicity render views in our actions
+- However, we can use `render` to also produce different formats of our data
+- For a Rails backend/JavaScript frontend, we will use `render json:` 
+- Example:
+    render json: @product
 
 
 
@@ -22,7 +29,7 @@
 
         respond_to do |format|
             format.html {render :index}
-            format.json {render json: @object(s)}
+            format.json {render json: @objects}
         end
     end 
 ```
