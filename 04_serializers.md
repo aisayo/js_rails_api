@@ -1,7 +1,7 @@
 # Hello, Serializers
 
 - Serializers allow us to encapsulate our modifications to our data structures and distribute it to our controller actions much more organized
-- There are a few serializers to use: [ActiveModel Serializer](https://github.com/rails-api/active_model_serializers) and [fast JSON:API](https://github.com/Netflix/fast_jsonapi)
+- There are a few serializers to use: [ActiveModel Serializer](https://github.com/rails-api/active_model_serializers/blob/0-10-stable/docs/general/getting_started.md) and [fast JSON:API](https://github.com/Netflix/fast_jsonapi)
 
 #### ActiveModel Serializer
 
@@ -14,4 +14,10 @@
       attributes :id, :title, :description
     end
     ```
-- 
+- Controller should look like:
+    ```
+        def index
+            authors = Author.all 
+            render json: authors
+        end 
+    ```
