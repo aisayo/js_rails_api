@@ -44,3 +44,14 @@
         render json: ModelSerializer.new(models)
     end 
 ```
+
+- To include associated objects as well:
+
+```
+    def index
+        models = Model.all 
+        render json: ModelSerializer.new(models, {include: [:associated_object]})
+    end 
+```
+
+- this will be provided as a value to the `included` key in JSON response
