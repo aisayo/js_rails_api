@@ -23,6 +23,11 @@
     `render json: @product.to_json`
 
 
+#### Returning Specific Data 
+
+- In certain cases, we might not want to include all the data of an object in the JSON being produced. We can actually specify which attributes to return as JSON. This is done in 2 ways:
+
+##### Explicitly returning specific attributes in controllers
 
 
 #### This is an example of rendering both HTML and JSON in the controller:
