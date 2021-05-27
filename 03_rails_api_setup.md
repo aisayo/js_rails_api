@@ -23,15 +23,22 @@
     `render json: @product.to_json`
 
 
-#### Returning Specific Pieced of Data 
+#### Returning Specific Pieces of Data 
 
-- In certain cases, we might not want to include all the data of an object in the JSON being produced. We can actually specify which attributes to return as JSON. This is done in 2 ways:
+- In certain cases, we might not want to include all the attributes of an object in the JSON being produced. We can actually specify which attributes to return as JSON. This is done in 2 ways:
 
 - Explicitly returning specific attributes in controllers
     - ```render json: authors.to_json(except: [:created_at, :updated_at])```
     - ```render json: authors.to_json(only: [:name])```
 
+- We might also want to include related objects in our response:
+    - ```render json: authors.to_json(include: :books)```
+- We can specify the attributes we want returned for the associated object: 
+    - ```render json: authors.to_json(include: { books: {only: [:title]}})```
 
+As seen above, the more modifications we want to create, the messier and longer our logic will get. 
+
+Enter Serializers: See `004_serializers.md`
 
 #### This is an example of rendering both HTML and JSON in the controller:
 ```
