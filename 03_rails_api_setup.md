@@ -18,8 +18,10 @@
 - However, we can use `render` to also produce different formats of our data
 - For a Rails backend/JavaScript frontend, we will use `render json:` 
 - Example:`render json: @product`
-- This will format the data in a way that is easily consumed by our application upon requests
-- 
+    - This will format the data into JSON which is easily consumed by our application upon requests
+    - What is happening 'under the hood' is the `.to_json` is being called implicity on the method
+    `render json: @product.to_json`
+
 
 
 
