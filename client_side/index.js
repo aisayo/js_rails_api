@@ -1,8 +1,10 @@
 const authorsList = document.querySelector("#books-list")
 
-fetch('http://localhost:3000/authors')
-.then(resp => resp.json())
-.then(renderAuthors)
+function getAuthors(){
+    fetch('http://localhost:3000/authors')
+    .then(resp => resp.json())
+    .then(renderAuthors)
+}
 
 function renderAuthors(authors){
         // authors.data returns array of author objects
@@ -28,3 +30,5 @@ function appendAuthor(authorsElements){
         authorsList.append(author)
     });
 }
+
+getAuthors()
