@@ -37,3 +37,10 @@
         belongs_to :parent_object # this will return related object, in order to so, this object must have a serializer initialized as well
     end
 ```
+- Controller will now look like:
+```
+    def index
+        models = Model.all 
+        render json: ModelSerializer.new(models)
+    end 
+```
