@@ -9,7 +9,9 @@
 - Run `bundle`
 - Run `rails g serializer serialized_model`
 - Use `attributes` method to determine which attributes are to be returned in the response:
+    ```
     class PostSerializer < ActiveModel::Serializer
       attributes :id, :title, :description
     end
+    ```
 - 
